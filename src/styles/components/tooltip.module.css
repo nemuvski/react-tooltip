@@ -1,0 +1,25 @@
+.root {
+  position: relative;
+}
+
+.icon {
+  cursor: help;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-orange);
+  border-radius: 50%;
+  color: var(--color-white);
+}
+
+.contents {
+  position: absolute;
+  top: 1.75rem;
+  width: calc(250px + 0.5rem * 2);
+  padding: 0.5rem;
+  background-color: var(--color-black-transparency);
+  border-radius: 0.25rem;
+  color: var(--color-white);
+  word-break: break-word;
+  z-index: var(--depth-tooltip);
+}
